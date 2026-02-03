@@ -12,7 +12,7 @@ The model is built on a robust star schema to ensure scalability and filter effi
 
 - Item Return: A specialized fact table tracking return status (Yes/No) linked via Order_ID.
 
-# Dimension Tables
+## Dimension Tables
 - Dim_product: Contains product hierarchies including Category, Sub-Category, and Product Name.
 
 - Dim_customer: Enables segmentation by customer name, ID, and business segments.
